@@ -1,0 +1,23 @@
+GIT
+  remote: git://github.com/codeship/dns_deploy.git
+  revision: f2c0c2d3b949fc53aba05e1c5f302e0f4570befb
+  specs:
+    dnsdeploy (0.0.1)
+      dnsimple-ruby (~> 1.5)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    dnsimple-ruby (1.5.5)
+      httparty (~> 0.12)
+    httparty (0.13.1)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
+    json (1.8.1)
+    multi_xml (0.5.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  dnsdeploy!
