@@ -17,7 +17,7 @@ bundle exec ruby validate.rb
 ###Codeship Deploy Commands:
 
 ```
-bash deploy.sh
+bundle exec dns_deploy records.json
 ```
 
 ###DNSimple credentials
